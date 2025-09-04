@@ -1,18 +1,18 @@
 // Synchronus - Javscript code run line by line
 
-// console.log('hello javScript');
-// console.log('1')
-// console.log('2')
-// console.log('3')
+console.log('hello javScript');
+console.log('1')
+console.log('2')
+console.log('3')
 
 
 // Asynchronus means run code line by line but wait for some time to execute code of specific second then it will run at last in output
 
-// console.log('1');
-// setTimeout(()=>{    //Asynchronus operation
-// console.log('Run in last ')
-// },[1000])
-// console.log('2')
+console.log('1');
+setTimeout(()=>{    //Asynchronus operation
+console.log('Run in last ')
+},[1000])
+console.log('2')
 
 
 // 1- Promises  :  - 
