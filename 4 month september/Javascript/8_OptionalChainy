@@ -1,0 +1,15 @@
+// optionalChainy -- To avoid page crash and check object values is defined or not with proper error msg and check symbol "?"
+
+const data = {
+  name: "yash",
+  address: {
+    city: "karad",
+    pincode: 400604,
+    rommno:{
+        num:"22",
+        floor:"second"
+    }
+  },
+};
+
+console.log(data?.address.city);
