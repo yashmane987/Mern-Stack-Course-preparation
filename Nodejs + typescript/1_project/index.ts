@@ -53,4 +53,4 @@ console.log(alluser)
 
 // Rest Opearter
 
-
+// The rest operator (...) in JavaScript is used to collect remaining elements into a single array or object.
