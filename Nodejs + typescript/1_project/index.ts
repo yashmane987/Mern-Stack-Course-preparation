@@ -54,3 +54,10 @@ console.log(alluser)
 // Rest Opearter
 
 // The rest operator (...) in JavaScript is used to collect remaining elements into a single array or object.
+
+// collect multiple elements in single array and  object
+
+function sum(...number:any){
+    return number.reduce((total:number, num:number) => total + num, 0);
+}
+console.log(sum(10, 20, 30));
